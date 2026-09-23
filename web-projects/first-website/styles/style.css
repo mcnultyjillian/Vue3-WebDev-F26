@@ -59,14 +59,22 @@ table {
   border: 2px solid rgb(255, 255, 255);
 }
 
+em {
+  color: rebeccapurple;
+}
 th,
 td {
   border: 1px solid rgb(255, 255, 255);
 }
 
 .row-even {
-  background-color: rgb(213, 136, 212);
+  background-color: rgb(227, 143, 217);
 }
 .row-odd {
   background-color: rgb(183, 121, 212);
+}
+
+.highlight {
+  background-color: rgb(255, 0, 208);
+  color: rgb(255, 216, 164);
 }
