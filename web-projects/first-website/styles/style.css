@@ -65,8 +65,8 @@ td {
 }
 
 .row-even {
-  background-color: rgba(117, 1, 137, 0.545);
+  background-color: rgb(213, 136, 212);
 }
 .row-odd {
-  background-color: rgba(124, 0, 165, 0.371);
+  background-color: rgb(183, 121, 212);
 }
