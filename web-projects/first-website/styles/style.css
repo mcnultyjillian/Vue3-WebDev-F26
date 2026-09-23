@@ -73,3 +73,7 @@ td {
 .row-odd {
   background-color: rgb(183, 121, 212);
 }
+
+#oneID {
+  color: rgb(255, 64, 207);
+}
