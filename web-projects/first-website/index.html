@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+    <link href="styles/style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&family=Unkempt:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- 4 heading levels: -->
+  <body>
+    <date> Tuesday, September 22nd, 2026</date>
+    <h1>GOOD ROOTS</h1>
+    <h2><span class="row-odd">Fiber</span> is Cool</h2>
+    <h3>Sweet Potato Brownies</h3>
+    <h3>Fudge Forward & <span class="row-odd">Fiber</span> Backed</h3>
+
+    <img src="images/sweetpotatobrownies.png" alt="brownie image" />
+    <br />
+    <table>
+      <tr>
+        <th><em>Potato Type</em></th>
+        <th><em>Flavor</em></th>
+        <th><em>Texture</em></th>
+      </tr>
+
+      <tr class="row-even">
+        <td>Orange</td>
+        <td>sweet, rich, and slightly earthy</td>
+        <td>soft, moist, and creamy</td>
+      </tr>
+
+      <tr class="row-odd">
+        <td>Japanese</td>
+        <td id="oneID">very sweet, nutty, and chestnut-like</td>
+        <td>dense, firm, drier, and fluffy</td>
+      </tr>
+
+      <tr class="row-even">
+        <td>Purple</td>
+        <td>mildly sweet, earthy, and subtly nutty</td>
+        <td>dense and starchy</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <p>Your Gut's Favorite Dessert</p>
+    <ul>
+      <li>High in <span class="row-odd">Fiber</span></li>
+      <li>Gluten Free</li>
+      <li>Dairy Free</li>
+      <li>Refined Sugar Free</li>
+    </ul>
+
+    <a href="https://whatgreatgrandmaate.com/sweet-potato-brownies/">
+      Make it Yourself!
+    </a>
+    <script async src="scripts/main.js"></script>
+
+    <br />
+
+    <label for="nickname">Nickname:</label>
+    <input
+      type="text"
+      id="nickname"
+      name="nickname"
+      minlength="5"
+      maxlength="10"
+    />
+
+    <br />
+
+    <label for="potato select">
+      For the base of this recipe, would you prefer to use:</label>
+    <select id="potato select" name="potato">
+      <option value="">Select a Potato Type for Recipe Base</option>
+      <option value="Orange">Orange Sweet Potato</option>
+      <option value="Japanese">Japanese Sweet Potato</option>
+      <option value="Purple">Purple Sweet Potato</option>
+
+      Potatoes Japanese Sweet Potato Purple Sweet Potato
+    </select>
+
+    <br />
+
+    <label for="story">Let us know what you think! Leave a recipe review!</label>
+
+    <textarea id="review" name="review" rows="5" cols="33">
+ Recipe adaptations, modifications, and taste preferences!
+    </textarea>
+    <br />
+
+    <button>Change user</button>
+  </body>
+</html>
